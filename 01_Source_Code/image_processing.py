@@ -9,6 +9,10 @@ import numpy as np
 from typing import Tuple, Optional
 
 
+# Constants
+EPSILON = 1e-10  # Small value to avoid division by zero
+
+
 class ImageProcessor:
     """Class chứa các phương thức xử lý ảnh tĩnh"""
     
@@ -420,7 +424,7 @@ class ImageProcessor:
         D = np.sqrt(X**2 + Y**2)
         
         # Tránh chia cho 0
-        D[D == 0] = 0.01
+        D[D == 0] = EPSILON
         
         mask = 1 / (1 + (cutoff / D) ** (2 * order))
         

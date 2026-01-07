@@ -12,7 +12,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import os
-import sys
 
 # Import thư viện xử lý
 from image_processing import ImageProcessor
