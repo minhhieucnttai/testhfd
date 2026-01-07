@@ -209,7 +209,7 @@ GHI CHÚ:
 ### Trên Linux (Ubuntu)
 
 #### Sử dụng Brasero
-1. Cài đặt: `sudo apt-get install brasero`
+1. Cài đặt: `sudo apt install brasero`
 2. Mở Brasero
 3. Chọn **Data project**
 4. Kéo thả file vào
@@ -222,7 +222,12 @@ GHI CHÚ:
 # Tạo file ISO
 mkisofs -o disc.iso -R -J /path/to/folder
 
-# Ghi CD/DVD
+# Kiểm tra đường dẫn thiết bị CD/DVD
+lsblk
+# hoặc
+ls /dev/sr*
+
+# Ghi CD/DVD (thay /dev/sr0 bằng đường dẫn thiết bị của bạn)
 cdrecord -v -dao speed=8 dev=/dev/sr0 disc.iso
 ```
 
@@ -375,5 +380,5 @@ NGÀY NỘP: [dd/mm/yyyy]
 
 **Chúc bạn hoàn thành tốt đồ án!**
 
-*Tài liệu được tạo: 2026*
+*Tài liệu được tạo: 2025*
 *Phiên bản: 1.0*
