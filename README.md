@@ -22,7 +22,9 @@ MSSV_HoTen_DoAnXuLyAnh/
 │   └── HUONG_DAN.md          # Hướng dẫn tạo .exe
 │
 └── 03_Bao_Cao/               # Báo cáo
-    └── Bao_Cao_Ket_Thuc_Mon.md
+    ├── Bai_Thuyet_Trinh.pptx         # PowerPoint (27 slides)
+    ├── Bao_Cao_Ket_Thuc_Mon.docx     # Báo cáo Word (5 chương)
+    └── README.md                      # Hướng dẫn sử dụng files
 ```
 
 ## Tính năng chính
