@@ -1,8 +1,43 @@
 # Ứng Dụng Xử Lý Ảnh - Đồ Án Kết Thúc Môn
 
+## 🎉 Version 2.0 - Enhanced Edition
+
+**ỨNG DỤNG ĐÃ ĐƯỢC NÂNG CẤP TOÀN DIỆN!**
+
+Phiên bản nâng cao với giao diện hiện đại, tích hợp đầy đủ 22+ chức năng từ Bài 1-12 cùng 10 tính năng nâng cao mới.
+
+## ⚡ Quick Start
+
+```bash
+cd 01_Source_Code
+pip install opencv-python numpy pillow matplotlib
+python comprehensive_app.py
+```
+
+📖 **Xem thêm:** [QUICKSTART.md](QUICKSTART.md) | [ENHANCEMENTS.md](ENHANCEMENTS.md)
+
+## 🆕 Tính năng mới (Version 2.0)
+
+### Interface & UX
+- ✅ **Tabbed Interface:** 6 tabs có tổ chức (Cơ bản, Histogram, Lọc, Tách biên, Fourier, Nâng cao)
+- ✅ **Menu Bar:** File, Edit, View, Processing, Help với keyboard shortcuts
+- ✅ **Undo/Redo:** 10 levels history (Ctrl+Z/Ctrl+Y)
+- ✅ **Real-time Histogram:** Tích hợp panel so sánh histogram
+- ✅ **Zoom Support:** 10%-500% zoom với phím tắt (+/-/0)
+- ✅ **Auto Preview:** Real-time updates khi kéo slider
+- ✅ **Resizable Panels:** Tùy chỉnh kích thước panels
+
+### Advanced Features
+- ✅ **3 Presets:** Black&White, Enhance Brightness, Edge Detection
+- ✅ **3 Pipelines:** Noise Reduction, Edge Enhancement, Contrast Enhancement
+- ✅ **Batch Processing:** Xử lý nhiều ảnh (coming soon)
+- ✅ **Compare Mode:** So sánh 2 ảnh (coming soon)
+
 ## Giới thiệu
 
-Dự án này là một ứng dụng xử lý ảnh tổng hợp hoàn chỉnh, được xây dựng để đáp ứng yêu cầu đồ án môn Xử lý ảnh. Ứng dụng tích hợp đầy đủ 12 bài tập từ cơ bản đến nâng cao với giao diện đồ họa thân thiện.
+Dự án này là một ứng dụng xử lý ảnh tổng hợp hoàn chỉnh, được xây dựng để đáp ứng yêu cầu đồ án môn Xử lý ảnh. 
+
+**Version 2.0** nâng cấp từ giao diện cơ bản lên giao diện chuyên nghiệp với nhiều tính năng tiên tiến.
 
 ## Cấu trúc dự án (CD Nộp Bài)
 
@@ -30,6 +65,23 @@ MSSV_HoTen_DoAnXuLyAnh/
 ```
 
 ## Tính năng chính
+
+### 🆕 Version 2.0 Enhanced Features
+
+#### Interface Improvements
+- **Tabbed Organization:** 6 tabs chuyên biệt cho từng nhóm chức năng
+- **Menu Bar:** Complete menu system với keyboard shortcuts
+- **History System:** Undo/Redo 10 levels
+- **Integrated Histogram:** Real-time comparison panel
+- **Zoom & Pan:** Flexible image viewing (10%-500%)
+
+#### Advanced Processing
+- **Presets:** 3 quick presets cho các tác vụ thường gặp
+- **Pipelines:** 3 multi-step processing pipelines
+- **Auto Preview:** Real-time parameter adjustment
+- **Canvas Display:** Better image rendering
+
+### Core Functions (All Versions)
 
 ### Bài 1-3: Xử lý cơ bản
 - ✅ Chuyển đổi ảnh xám (Grayscale)
